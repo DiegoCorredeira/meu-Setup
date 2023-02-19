@@ -45,11 +45,13 @@ background: linear-gradient(180deg, rgba(27,26,26,1) 0%, rgba(90,88,88,1) 37%);
 }
 main li{
     padding-top: 15px;
+    
 }
 li img {
     width: 150px;
     height: 160px;
     padding-top: 15px;
+    
 }
 #perifericos, #hardware{
     font-size: 24px;
@@ -81,6 +83,7 @@ li img {
 }
 .produtos_list p {
     color: rgb(170, 170, 170);;
+    vertical-align: top;
 }
 .produtos_list a {
     text-decoration: none;
