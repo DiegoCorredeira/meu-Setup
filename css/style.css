@@ -4,6 +4,7 @@
     font-weight: 500;
 }
 
+
 header{
     background: #1b1a1a;
     padding: 20px 0;
@@ -73,7 +74,8 @@ li img {
     width: 30%;
     vertical-align: top;
     height: 300px;
-    padding-top: 50px 0;
+    padding-top: 50px;
+    margin-bottom:30px ;
     margin-top: 30px;
     background: #0505053a;
 }
@@ -88,4 +90,10 @@ li img {
 .produtos_list a {
     text-decoration: none;
     color: rgb(62, 62, 255);
+}
+footer{
+    padding: 30px;
+    background: rgb(27, 26, 26);
+    color: #FFF;
+    text-align: center;
 }
