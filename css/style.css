@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+*{
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+}
+
+header{
+    background: #1b1a1a;
+    padding: 20px 0;
+}
+.nav-container{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 150px;
+    right: 0px;
+
+}
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+nav a{
+    text-transform: capitalize;
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+}
+nav a:hover{
+    border-bottom: 1px solid rgb(134, 134, 134);
+}
+#logo {
+    border-radius: 50%;
+    width: 250px;
+}
+hr{
+    border: 1px solid  rgb(134, 134, 134);
+    /* padding-bottom: 5px; */
+}
+main{
+    background: rgb(27,26,26);
+background: linear-gradient(180deg, rgba(27,26,26,1) 0%, rgba(90,88,88,1) 37%);
+}
+main li{
+    padding-top: 15px;
+}
+li img {
+    width: 150px;
+    height: 160px;
+    padding-top: 15px;
+}
+#perifericos, #hardware{
+    font-size: 24px;
+    font-weight: 800;
+   padding-top: 20px;
+    text-align: center;
+    color:  rgb(170, 170, 170);;
+
+}
+.produtos_list{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos_list > li{
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    width: 30%;
+    vertical-align: top;
+    height: 300px;
+    padding-top: 50px 0;
+    margin-top: 30px;
+    background: #0505053a;
+}
+.produtos_list h2{
+    color:rgb(134, 134, 134);
+    font-size: 20px;
+}
+.produtos_list p {
+    color: rgb(170, 170, 170);;
+}
+.produtos_list a {
+    text-decoration: none;
+    color: rgb(62, 62, 255);
+}
